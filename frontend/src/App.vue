@@ -8,7 +8,7 @@
               <div class="search-wrapper">
                 <div class="search-icon"><i class="icon ion-md-search"></i></div>
                 <div class="search-input-wrapper">
-                  <input type="text" class="search-input" id="searchVin" placeholder="Search ..." v-model="query" @keyup="fetchResults">
+                  <input type="text" class="search-input" id="searchbox" placeholder="Search ..." v-model="query" @keyup="fetchResults">
                 </div>
               </div>
               <div class="search-result">
