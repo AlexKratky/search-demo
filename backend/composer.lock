@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "eac7ca173ccaa7802a64347cad40f033",
+    "packages": [
+        {
+            "name": "alexkratky/db",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AlexKratky/db.git",
+                "reference": "a0b5265be56c1c62c2eb2b167a0392fd6a345441"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AlexKratky/db/zipball/a0b5265be56c1c62c2eb2b167a0392fd6a345441",
+                "reference": "a0b5265be56c1c62c2eb2b167a0392fd6a345441",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/db.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alex Kratky",
+                    "homepage": "https://alexkratky.com"
+                }
+            ],
+            "description": "Simple database wrapper.",
+            "homepage": "https://panx.eu/",
+            "keywords": [
+                "database",
+                "db",
+                "mysql",
+                "php",
+                "wrapper"
+            ],
+            "time": "2020-05-12T11:07:31+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
