@@ -1,6 +1,4 @@
 <?php
-error_reporting(E_ALL);
-ini_set("display_errors", 1);
 require $_SERVER['DOCUMENT_ROOT'] . "/../vendor/autoload.php";
 
 use AlexKratky\db;
@@ -33,5 +31,4 @@ header('Content-Type: application/json');
 
 echo json_encode(
     db::multipleSelect("SELECT `name`, `url`, `IDproduct` FROM tb_product WHERE `description` LIKE ? OR `name` LIKE ? OR `variantName` LIKE ? OR `url` LIKE ? LIMIT 10", array($search, $search, $search, $search))
-    //db::multipleSelect("SELECT * FROM tb_product LIMIT 15")
 );
